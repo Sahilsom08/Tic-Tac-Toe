@@ -79,12 +79,12 @@ nav ul {
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    transition: 3ms;
 }
 
-.btn:hover {
-    box-shadow: 1px 1px 5px rgb(129, 9, 185),
-        -1px -1px 5px rgb(129, 9, 185);
-    transition: ease-in-out;
+.btn:active {
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.20);
+    transition: linear;
 }
 
 .BRzero {
@@ -140,7 +140,7 @@ nav ul {
 
 
 .none {
-    display: none;
+    visibility: hidden;
 }
 
 
