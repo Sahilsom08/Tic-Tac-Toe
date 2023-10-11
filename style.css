@@ -140,7 +140,8 @@ nav ul {
 
 
 .none {
-    visibility: hidden;
+    display: none;
+/*     visibility: hidden; */
 }
 
 
