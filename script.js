@@ -44,7 +44,7 @@ function cellClicked(e) {
     checkWinner();
 }
 const winningCombos = [
-    { combo: [0, 1, 2], strikeClass:'strike-row-1' }, 
+    { combo: [0, 1, 2], strikeCLass:'strike-row-1' }, 
     { combo: [3, 4, 5], strikeCLass:'strike-row-2' }, 
     { combo: [6, 7, 8], strikeCLass:'strike-row-3' },
     { combo: [0, 3, 6], strikeCLass:'strike-column-1' }, 
